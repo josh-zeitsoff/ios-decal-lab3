@@ -49,6 +49,7 @@
 		5B4B4C3C1E5FD40800F02279 /* stopwatch_labUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatch_labUITests.swift; sourceTree = "<group>"; };
 		5B4B4C3E1E5FD40800F02279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4B4C4A1E5FD44C00F02279 /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stopwatch.swift; path = ../Stopwatch.swift; sourceTree = "<group>"; };
+		5B4B4C4F1E5FF49F00F02279 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +305,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5B4B4C211E5FD40800F02279 /* Base */,
+				5B4B4C4F1E5FF49F00F02279 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

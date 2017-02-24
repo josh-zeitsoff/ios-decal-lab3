@@ -24,9 +24,9 @@ class ViewController: UIViewController {
     func updateView(timer : Timer) {
         if watch.going {
             let time = watch.time;
-            let minutes = time / 60;
-            let seconds = time.truncatingRemainder(dividingBy: 60);
-            let milliseconds = String(format: "%.2f", time);
+            let minutes = Int(time / 60);
+            let seconds = Int(time.truncatingRemainder(dividingBy: 60));
+            let milliseconds = Int((time - floor(time)) * 100)
             timeDisplay.text = String(format: "%02d:%02d.%d", minutes, seconds, milliseconds);
         }
         else {
